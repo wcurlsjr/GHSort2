@@ -18,8 +18,8 @@ Public Class GHSort
             MessageBox.Show(LText, "BAD TABLE", MessageBoxButtons.OK, MessageBoxIcon.Stop)
         Else
             RecCount = dsLOTTO.Tables(0).Rows.Count
-            Me.txtRecCount.Text = "Total Number of Records = " & Convert.ToString(RecCount)
-        End If
+         Me.txtRecCount.Text = "Total Nbr Chg #1 of Records = " & Convert.ToString(RecCount)
+      End If
 
     End Sub
 

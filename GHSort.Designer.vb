@@ -37,7 +37,7 @@ Partial Class GHSort
         'cmdSORT
         '
         Me.cmdSORT.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdSORT.Location = New System.Drawing.Point(88, 83)
+        Me.cmdSORT.Location = New System.Drawing.Point(129, 83)
         Me.cmdSORT.Name = "cmdSORT"
         Me.cmdSORT.Size = New System.Drawing.Size(86, 28)
         Me.cmdSORT.TabIndex = 0
@@ -53,7 +53,7 @@ Partial Class GHSort
         Me.txtRecCount.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtRecCount.Location = New System.Drawing.Point(13, 43)
         Me.txtRecCount.Name = "txtRecCount"
-        Me.txtRecCount.Size = New System.Drawing.Size(238, 22)
+        Me.txtRecCount.Size = New System.Drawing.Size(320, 24)
         Me.txtRecCount.TabIndex = 1
         '
         'OleDbConnection
@@ -93,11 +93,11 @@ Partial Class GHSort
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(263, 145)
+        Me.ClientSize = New System.Drawing.Size(376, 145)
         Me.Controls.Add(Me.txtRecCount)
         Me.Controls.Add(Me.cmdSORT)
         Me.Name = "GHSort"
-        Me.Text = "GHSort"
+        Me.Text = "GHSort Chg #1"
         CType(Me.dsLOTTO, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
